@@ -2,9 +2,9 @@
   "name": "npm-status",
   "version": "0.1.0",
   "description": "Displays stats about global npm packages stored in the file system",
-  "main": "src/status.js",
+  "main": "./src/status.js",
   "bin": {
-    "npm-status": "status.js"
+    "npm-status": "./bin/status.js"
   },
   "scripts": {
     "test": "mocha --reporter spec"
