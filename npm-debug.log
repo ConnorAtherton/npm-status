@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@2.1.16
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 verbose linkPkg /Users/Connor/Repos/personal/npm-status
+6 verbose gentlyRm vacuuming /usr/local/lib/node_modules/npm-status
+7 silly gentlyRm purging /usr/local/lib/node_modules/npm-status
+8 silly gentlyRm quitting because other entries in /usr/local/lib/node_modules
+9 verbose gentlyRm vacuuming /usr/local/lib/node_modules/npm-status
+10 verbose link build target /usr/local/lib/node_modules/npm-status
+11 verbose install where, what [ '/Users/Connor/Repos/personal/npm-status', [] ]
+12 verbose install where, deps [ '/Users/Connor/Repos/personal/npm-status',
+12 verbose install   [ 'headway', 'mocha' ] ]
+13 verbose install where, peers [ '/Users/Connor/Repos/personal/npm-status', [] ]
+14 info preinstall npm-status@0.1.0
+15 verbose already installed skipping headway@^0.1.0 /Users/Connor/Repos/personal/npm-status
+16 verbose already installed skipping mocha@^2.1.0 /Users/Connor/Repos/personal/npm-status
+17 silly install resolved []
+18 info build /Users/Connor/Repos/personal/npm-status
+19 verbose linkStuff [ false, false, false, '/Users/Connor/Repos/personal' ]
+20 info linkStuff npm-status@0.1.0
+21 verbose linkBins npm-status@0.1.0
+22 verbose linkMans npm-status@0.1.0
+23 verbose rebuildBundles npm-status@0.1.0
+24 verbose rebuildBundles [ '.bin', 'headway', 'mocha' ]
+25 info install npm-status@0.1.0
+26 info postinstall npm-status@0.1.0
+27 info prepublish npm-status@0.1.0
+28 info build /usr/local/lib/node_modules/npm-status
+29 verbose linkStuff [ true,
+29 verbose linkStuff   '/usr/local/lib/node_modules',
+29 verbose linkStuff   true,
+29 verbose linkStuff   '/usr/local/lib/node_modules' ]
+30 info linkStuff npm-status@0.1.0
+31 verbose linkBins npm-status@0.1.0
+32 verbose link bins [ { 'npm-status': 'status.js' }, '/usr/local/bin', true ]
+33 verbose linkMans npm-status@0.1.0
+34 verbose stack Error: ENOENT, chmod '/usr/local/lib/node_modules/npm-status/status.js'
+35 verbose cwd /Users/Connor/Repos/personal/npm-status
+36 error Darwin 13.4.0
+37 error argv "node" "/usr/local/bin/npm" "link"
+38 error node v0.10.32
+39 error npm  v2.1.16
+40 error path /usr/local/lib/node_modules/npm-status/status.js
+41 error code ENOENT
+42 error errno 34
+43 error enoent ENOENT, chmod '/usr/local/lib/node_modules/npm-status/status.js'
+43 error enoent This is most likely not a problem with npm itself
+43 error enoent and is related to npm not being able to find a file.
+44 verbose exit [ 34, true ]

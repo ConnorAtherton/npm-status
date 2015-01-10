@@ -1,0 +1,30 @@
+{
+  "name": "npm-status",
+  "version": "0.1.0",
+  "description": "Displays stats about global npm packages stored in the file system",
+  "main": "src/status.js",
+  "bin": {
+    "npm-status": "status.js"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ConnorAtherton/npm-status.git"
+  },
+  "keywords": [
+    "status",
+    "npm"
+  ],
+  "author": "Connor Atherton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConnorAtherton/npm-status/issues"
+  },
+  "homepage": "https://github.com/ConnorAtherton/npm-status",
+  "devDependencies": {
+    "headway": "^0.1.0",
+    "mocha": "^2.1.0"
+  }
+}
